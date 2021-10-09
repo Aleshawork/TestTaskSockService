@@ -13,6 +13,9 @@ TestTaskSockService сервис для автоматизации учёта н
 * приложение развернуто на Heroku
 
 ## Список URL HTTP-методов
-Для просмотра перейдите: *http://localhost:8081/swagger-ui.html#/sock-controller*
+
+Для просмотра на Heroku: *http://socksservice.herokuapp.com/swagger-ui.html#/sock-controller*  
+
+При запуске приложения локально: *http://localhost:8081/swagger-ui.html#/sock-controller*
 
 ![](https://github.com/Aleshawork/TestTaskSockService/blob/master/src/main/resources/api-doc.png)
