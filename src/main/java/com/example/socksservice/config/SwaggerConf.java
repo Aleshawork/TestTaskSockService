@@ -17,7 +17,7 @@ public class SwaggerConf{
     @Bean
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .host("localhost:8081")
+                .host("socksservice.herokuapp.com")
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.example.socksservice.controller"))
                 .paths(regex("/api/socks.*"))
